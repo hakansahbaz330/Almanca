@@ -4,7 +4,7 @@ set -e
 cd "$(dirname "$0")"
 OUT=Pflege_Lernfuehrer_komplett
 TMP=$(mktemp -d)
-FILES="README.md 00_Inventar_und_Konusu_Haritasi.md 01_LF1_Grundverstaendnis_Pflege.md 02_Kommunikation.md 02b_Pflegedeutsch_Dialoge.md 03_Hygiene_und_Infektionsschutz.md 04_Haut_Zelle_Gewebe.md 05_Koerpertemperatur_Fieber.md 06_Mobilitaet_und_Sturzprophylaxe.md 07_Prophylaxen_Thrombose_Pneumonie.md 08_Erste_Hilfe.md 09_Pflegeprozess_und_Klinisches_Denken.md 10_Dokumentation_und_Operatoren.md 11_Grammatik_fuer_die_Pflege.md 12_Berufskontext_und_Lernplan.md ekler/Ek1_Woerterbuch.md ekler/Ek2_Pruefungssaetze.md ekler/Ek3_Konu_Ozetleri.md ekler/Ek4_Flashcards.md ekler/Ek5_Probeklausuren.md ekler/Ek5b_Antwortschluessel.md ekler/Ek6_Klinische_Faelle.md ekler/Ek7_Lernverfolgung.md ekler/Ek8_Quellen_und_Seitenindex.md"
+FILES="README.md 00_Inventar_und_Konusu_Haritasi.md 01_LF1_Grundverstaendnis_Pflege.md 02_Kommunikation.md 02b_Pflegedeutsch_Dialoge.md 03_Hygiene_und_Infektionsschutz.md 04_Haut_Zelle_Gewebe.md 05_Koerpertemperatur_Fieber.md 06_Mobilitaet_und_Sturzprophylaxe.md 07_Prophylaxen_Thrombose_Pneumonie.md 08_Erste_Hilfe.md 09_Pflegeprozess_und_Klinisches_Denken.md 10_Dokumentation_und_Operatoren.md 11_Grammatik_fuer_die_Pflege.md 12_Berufskontext_und_Lernplan.md ekler/Ek1_Woerterbuch.md ekler/Ek2_Pruefungssaetze.md ekler/Ek3_Konu_Ozetleri.md ekler/Ek4_Flashcards.md ekler/Ek5_Probeklausuren.md ekler/Ek5b_Antwortschluessel.md ekler/Ek5c_Operatoren_Faelle.md ekler/Ek5d_Operatoren_Loesungen.md ekler/Ek6_Klinische_Faelle.md ekler/Ek7_Lernverfolgung.md ekler/Ek8_Quellen_und_Seitenindex.md"
 : > $TMP/all.md
 for f in $FILES; do
   # Links auf lokale .md-Dateien → nur Text (im PDF gibt es keine Dateien); externe Links bleiben

@@ -34,6 +34,7 @@ Almanya’da **Pflegefachfrau/-mann Ausbildung** öğrencisi için, yüklediğin
 | 3 | [Konu özetleri](ekler/Ek3_Konu_Ozetleri.md) |
 | 4 | [Flashcards (119)](ekler/Ek4_Flashcards.md) · [CSV (Anki)](ekler/Ek4_Flashcards.csv) |
 | 5 | [Deneme sınavları (5)](ekler/Ek5_Probeklausuren.md) · [Cevap anahtarı](ekler/Ek5b_Antwortschluessel.md) |
+| 5c | **[Operatör formatlı vaka sınavları (6 vaka, Übungsheft tarzı)](ekler/Ek5c_Operatoren_Faelle.md)** · [Örnek cevaplar](ekler/Ek5d_Operatoren_Loesungen.md) |
 | 6 | [Klinik vakalar](ekler/Ek6_Klinische_Faelle.md) |
 | 7 | [Takip tablosu](ekler/Ek7_Lernverfolgung.md) |
 | 8 | [Kaynakça ve sayfa indeksi](ekler/Ek8_Quellen_und_Seitenindex.md) |
