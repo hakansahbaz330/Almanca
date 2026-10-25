@@ -26,7 +26,7 @@ h1{font-size:17pt;border-bottom:2px solid #1d4e89;padding-bottom:2px;margin-top:
 table{border-collapse:collapse;width:100%;margin:6px 0;font-size:8.6pt}th,td{border:1px solid #bbb;padding:2px 4px;vertical-align:top}th{background:#e8eef6}
 blockquote{border-left:3px solid #e0a800;margin:6px 0;padding:2px 8px;background:#fff8e1}code{font-size:8.5pt}
 CSS
-pandoc $TMP/all.md -f gfm -t html5 -s --toc --toc-depth=2 --metadata title="Operatör Soru Bankası — Almanca + Türkçe" -c $TMP/style.css --embed-resources -o $TMP/all.html 2>/dev/null || pandoc $TMP/all.md -f gfm -t html5 -s --toc --toc-depth=2 --metadata title="Operatör Soru Bankası — Almanca + Türkçe" -c $TMP/style.css --self-contained -o $TMP/all.html
+pandoc $TMP/all.md -f gfm+hard_line_breaks -t html5 -s --toc --toc-depth=2 --metadata title="Operatör Soru Bankası — Almanca + Türkçe" -c $TMP/style.css --embed-resources -o $TMP/all.html 2>/dev/null || pandoc $TMP/all.md -f gfm+hard_line_breaks -t html5 -s --toc --toc-depth=2 --metadata title="Operatör Soru Bankası — Almanca + Türkçe" -c $TMP/style.css --self-contained -o $TMP/all.html
 node -e "
 const {chromium}=require('playwright');
 (async()=>{const b=await chromium.launch();const p=await b.newPage();
