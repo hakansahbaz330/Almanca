@@ -12,6 +12,11 @@ for f in $FILES; do
 import re,sys
 t=open(sys.argv[1],encoding="utf-8").read()
 t=re.sub(r'\[([^\]]+)\]\((?!http)[^)]*\.(?:md|csv)(?:#[^)]*)?\)',r'\1',t)
+L=t.split('\n');o=[]
+for i,l in enumerate(L):
+    if l.startswith('|') and o and o[-1].strip() and not o[-1].startswith('|'): o.append('')
+    o.append(l)
+t='\n'.join(o)
 print(t); print("\n<div style='page-break-after:always'></div>\n")
 PY
 done
